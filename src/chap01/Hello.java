@@ -7,7 +7,6 @@ public class Hello {
 		System.out.println("第一个Java程序");
 		System.out.println("输出到画面上");
 		
-
 	}
 
 }
