@@ -13,8 +13,7 @@ public class LuckNo6 {
 		double b = rand.nextDouble();
 		
 		double c = a-b;
-		
-  
+		  
 		//只保留两位小数点
 		NumberFormat nf = NumberFormat.getNumberInstance();
 		nf.setMaximumFractionDigits(1);
