@@ -11,7 +11,7 @@ public class LuckNo3 {
 		Random rand = new Random();
 		int a = rand.nextInt(11);
 
-		System.out.println("整数值：:" );
+		System.out.println("整数值：" );
 		Scanner stdInt = new Scanner(System.in);
 		int b = stdInt.nextInt();
 
