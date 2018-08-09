@@ -21,7 +21,7 @@ public class IntArrayRand {
 			System.out.print("a["+i+"]: ");
 			for(int j=0; j<a[i]; j++)
 				System.out.print('*');
-			System.out.println("");
+			System.out.println(""); 
 		}
 		
 	}
