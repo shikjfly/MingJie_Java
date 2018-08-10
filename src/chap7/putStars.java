@@ -3,7 +3,7 @@ package chap7;
 import java.util.Scanner;
 
 public class putStars {
-	
+	 
 	static void putStars(int n) {
 
 		for (int i = 0; i < n; i++) {
