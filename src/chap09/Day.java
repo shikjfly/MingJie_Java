@@ -36,4 +36,8 @@ class Day {
 		return (y+y/4 -y/100+y/400+(13*m+8)/5+date)%7;
 	}
 	
+	boolean compDay(Day d1, Day d2) {
+		return d1.getYear() == d2.getYear() && d1.getMonth() == d2.getMonth() && d1.getDate() == d2.getDate();
+	}
+	
 }
