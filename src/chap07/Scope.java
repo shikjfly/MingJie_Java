@@ -1,4 +1,4 @@
-package chap7;
+package chap07;
 
 public class Scope {
 	

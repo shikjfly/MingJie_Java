@@ -1,13 +1,16 @@
-package chap7;
+package chap07;
 
 import java.util.Scanner;
 
-public class Power {
+public class Power2 {
 	
 	static double power(double x, int n) {
 		double ans = 1.0;
-		for(int i=0; i<n; i++) {
-			ans = x*ans;
+//		for(int i=0; i<n; i++) {
+//			ans = x*ans;
+//		}
+		while (n-->0) {
+			ans *=x;
 		}
 		return ans;
 	}
